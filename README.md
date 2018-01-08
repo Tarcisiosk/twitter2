@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To test just create a new course by `Course.new(name: 'your_course_name', description: 'your_course_description', url: 'your_course_url')` or run the specs, you can check the tweet generated at this account: https://github.com/Tarcisiosk/twitter2, or if you have credentials for the twitter api, you can connect you own account at `config\initializers\twitter.rb` inserting your credantials.
