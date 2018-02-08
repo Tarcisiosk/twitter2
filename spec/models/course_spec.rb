@@ -9,7 +9,7 @@ RSpec.describe Course, type: :model do
 	end
 
   context 'when creating a new course' do 
-    let(:course) { FactoryGirl.build(:course) }
+    let(:course) { FactoryBot.build(:course) }
 
   	it 'generates a tweet to publish' do
       expect(course).to receive(:publish)

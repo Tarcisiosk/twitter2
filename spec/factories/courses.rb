@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :course do
     url 'reallygoodcourseshere.com/awesome_course'
     name 'Awesome Course'
